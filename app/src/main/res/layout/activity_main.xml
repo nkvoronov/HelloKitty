@@ -13,11 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Введите имя кота"
+        android:hint="@string/inp_label"
         android:inputType="textPersonName"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:autofillHints="" tools:targetApi="o"/>
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -28,7 +29,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:srcCompat="@drawable/hello_kitty" />
+        app:srcCompat="@drawable/hello_kitty"
+        android:contentDescription="@string/img_desc" />
 
     <TextView
         android:id="@+id/textView"
@@ -40,6 +42,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        tools:text="Имя кота" />
+        tools:text="@string/out_label" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

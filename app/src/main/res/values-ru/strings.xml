@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Привет котенок</string>
+    <string name="inp_label">Введите имя кота</string>
+    <string name="out_label">Имя кота</string>
+    <string name="img_desc">Картинка кота</string>
+    <string name="hello">Привет</string>
+</resources>

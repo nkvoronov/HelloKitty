@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">HelloKitty</string>
+    <string name="app_name">Hello Kitty</string>
+    <string name="inp_label">Enter cat name</string>
+    <string name="out_label">Сat name</string>
+    <string name="img_desc">Hello Kitty Img</string>
+    <string name="hello">Hello</string>
 </resources>
